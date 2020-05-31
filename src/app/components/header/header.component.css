@@ -1,0 +1,46 @@
+
+#idimgsitio img{
+    width: 100px;           /* Modifica el tamanio del logo de la pagina*/
+}
+#contenedor header{
+    display: flex;          /* Todos las secciones del header las alinea horizontalmente*/
+    background:#042334;   /*Color de toda el area del header*/
+}
+header{
+    margin-bottom: 2em;
+}
+header h1{
+    margin-left: 1em;       /*Espacio entre el titulo y el logo*/
+    margin-top: 0.5em;
+    color:khaki;          /*Color del h1*/
+    font-family: Calibri;
+}
+
+header nav{
+    margin-left: auto;
+}
+
+header ul{
+    display: -webkit-flex;   /* Alínea el ul horizontalmente*/
+    list-style: none;        /* Quita los items del ul*/   
+}
+
+header li{
+    margin-top: 0.5em;        /*Espacio entre el cabezal de la pagina hacia abajo*/
+    margin-right: 4em;      /*Espacio entre cada li*/      
+}
+
+header  a{
+    font-size: 20px;         /*Tamanio de letra a*/
+    color: white;          /*Color de letra a*/
+    text-decoration: none;    /*Elimina el subrayado de a*/
+    font-family: Calibri;
+    display: block;
+    line-height: 2.5;
+    padding: 0 1em;
+}
+  
+ header  a:hover {
+    /*background-color: khaki;*/
+    color: khaki;
+  }

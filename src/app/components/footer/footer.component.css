@@ -1,0 +1,13 @@
+footer {
+    margin-top: 1em;
+    padding: 0.5em;
+    color: white;
+    background-color: #083e5c;
+}
+
+footer p{
+    margin: 1em;
+    font-size: 13px;
+    font-family:  helvetica ,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
